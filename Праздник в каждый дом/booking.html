@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Забронировать</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Шапка -->
+    <header>
+        <div class="header">
+            <img src="img/logo.jpeg" alt="logo">
+            <a href="index.html">Главная</a>
+            <a href="#location">Наши локации</a>
+            <a href="#reviews">Отзывы</a>
+            <a href="#sales">Акции</a>
+            <a href="booking.html">Забронировать</a>
+        </div>
+    </header>
+    <!-- Форма -->
+    <div class="form">
+        <form action="POST">
+            <input type="text" placeholder="Наименование локации" require>
+            <input type="text" placeholder="Адрес локации" require>
+            <input type="date" placeholder="Дата мероприятия" require>
+            <input type="time" placeholder="Время начала мероприятния" require>
+            <input type="number" placeholder="Количество человек (Максимум 15!)">
+            <input type="checkbox" require>
+            <label>Организация питания</label>
+            <input type="checkbox" require>
+            <label>Услуги аниматоров</label>
+            <input type="checkbox" require>
+            <label>Услуги Ведущего</label>
+            <input type="checkbox" require>
+            <label>Услуги детского такси</label>
+            <input type="reset" value="Очистить">
+            <input type="submit" value="Зарегистрироваться">
+            <p>Уже зарегестрированы? Войдите <a href="">здесь</a></p>
+        </form>
+    </div>
+</body>
+</html>
